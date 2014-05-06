@@ -1,0 +1,32 @@
+{
+    "name": "lagman/yii-phpthumb",
+    "description": "Yii wrapper for PHPThumb",
+    "type": "yii-extension",
+    "keywords": ["yii", "image", "resize", "rotate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Samoylov",
+            "email": "alexey.samoylov@gmail.com",
+            "homepage": "http://yiiblog.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "*",
+        "masterexploder/phpthumb": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/masterexploder/PHPThumb"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "./"
+        }
+    }
+}
