@@ -27,5 +27,5 @@ $thumb->adaptiveResize(100, 100)->show();
 
 ### Links
 
-<https://github.com/russianlagman/yii-phpthumb>
-<https://packagist.org/packages/lagman/yii-phpthumb>
+- <https://github.com/russianlagman/yii-phpthumb>
+- <https://packagist.org/packages/lagman/yii-phpthumb>
